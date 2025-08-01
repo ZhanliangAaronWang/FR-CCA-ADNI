@@ -26,8 +26,8 @@ Where ẑ represents the centered sensitive attribute vector.
 ## 📁 Repository Structure
 
 ```
-├── FRCCA_AV14_MRI_Update.ipynb    # Implementation for AV1451 (Tau PET) modality
-├── FRCCA_AV14_MRI_Update-Y.ipynb  # Implementation for MRI modality
+├── FRCCA_AV14_MRI_Update_X.ipynb    # Implementation for MRI modality
+├── FRCCA_AV14_MRI_Update_Y.ipynb  # Implementation for AV1451 (Tau PET) modality
 ├── data/                          # Data directory (ADNI datasets)
 ├── utils/                         # Utility functions
 └── README.md                      # This file
@@ -54,17 +54,29 @@ pip install scipy shap jupyter
 - Used for method validation and parameter tuning
 
 ## 🚀 Usage
+### For Synthetic X Modality:
+```python
+# Run the synthetic X notebook
+jupyter notebook FRCCA_Synthetic_X.ipynb
+```
 
+### For Synthetic Y Modality:
+```python
+# Run the synthetic T notebook
+jupyter notebook FRCCA_Synthetic_Y.ipynb
+```
+
+*Need access to ADNI data when running MRI and AV14 notebook*
 ### For MRI Modality:
 ```python
 # Run the MRI notebook
-jupyter notebook FRCCA_AV14_MRI_Update-Y.ipynb
+jupyter notebook FRCCA_AV14_MRI_Update_X.ipynb
 ```
 
 ### For AV1451 (Tau PET) Modality:
 ```python
 # Run the AV1451 notebook
-jupyter notebook FRCCA_AV14_MRI_Update.ipynb
+jupyter notebook FRCCA_AV14_MRI_Update_Y.ipynb
 ```
 
 Both notebooks include:
@@ -72,7 +84,6 @@ Both notebooks include:
 2. FR-CCA model training
 3. Fairness evaluation (DPG, EOG, GSG metrics)
 4. Classification performance assessment
-5. Visualization of results and brain region importance
 
 ## 📈 Key Results
 
@@ -106,17 +117,7 @@ Our FR-CCA method demonstrates:
 
 ## 📝 Citation
 
-If you use this code in your research, please cite:
-
-```bibtex
-@inproceedings{anonymous2024fair,
-  title={Fair CCA for Fair Representation Learning: An ADNI Study},
-  author={Anonymous Authors},
-  booktitle={Proceedings of the 15th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics (BCB'24)},
-  year={2024},
-  publisher={ACM}
-}
-```
+coming soon
 
 ## 🤝 Contributing
 
