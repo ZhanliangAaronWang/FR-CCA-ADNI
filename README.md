@@ -116,9 +116,17 @@ Our FR-CCA method demonstrates:
 - **AV1451 Focus**: Tau pathology in sensory processing and emotional regulation areas (postcentral gyrus, temporal pole, anterior cingulate)
 
 ## 📝 Citation
-
-coming soon
-
+```bibtex
+@misc{hou2025fairccafairrepresentation,
+      title={Fair CCA for Fair Representation Learning: An ADNI Study}, 
+      author={Bojian Hou and Zhanliang Wang and Zhuoping Zhou and Boning Tong and Zexuan Wang and Jingxuan Bao and Duy Duong-Tran and Qi Long and Li Shen},
+      year={2025},
+      eprint={2507.09382},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2507.09382}, 
+}
+```
 ## 🤝 Contributing
 
 We welcome contributions! Please feel free to submit issues, feature requests, or pull requests.
